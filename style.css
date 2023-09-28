@@ -1,0 +1,144 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    flex: 1;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .weather-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .weather-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-container p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  #temperatureValue {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #temperatureUnit {
+    font-size: 18px;
+  }
+  
+  #getLocationButton {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #getLocationButton:hover {
+    background-color: #27ae60;
+  }
+  
+  .unit-toggle {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 769px) {
+    .search-input {
+      width: 300px;
+    }
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .search-input {
+      width: 100%;
+    }
+  }
+  
